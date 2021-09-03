@@ -97,9 +97,24 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Fan
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+#comments
+# comments:
+#   # 可以自由配置 valine 的其他配置项
+#   valine:
+#     appId: 'gmQRJ3H7wwdiRQ0NRQTzA6tk-gzGzoHsz'
+#     appKey: 'GfvfNCBoG3GF6JWmuHElzJGc'
+#     placeholder: '请输入'
+comments:
+  valine:
+    appId: 'gmQRJ3H7wwdiRQ0NRQTzA6tk-gzGzoHsz'
+    appKey: 'GfvfNCBoG3GF6JWmuHElzJGc'
+    placeholder: '请输入'
+
+
